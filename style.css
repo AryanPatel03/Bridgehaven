@@ -104,7 +104,7 @@ body{
 }
 
 .navbar .nav-div .nav-a{
-    margin-left: 57px;
+    margin: 20px 32px 20px 96px;
 }
 
 .nav-st .nav-div .nav-div1 .navbar-nav .nav-item .button-up{
@@ -382,7 +382,7 @@ body{
 }
 
 .footer .r-content{
-    height: 449px; float: right; margin: 64px 96px 96px 104px; position: relative;
+    height: 449px; float: right; margin: 64px 96px 93px 104px; position: relative;
 }
 
 .footer .r-content .rfl{
@@ -410,7 +410,7 @@ body{
 }
 
 .footer .f-copyright .resiz{
-    margin-top: 8.1px; color: #888888; margin-left: 96px; float: left;
+    margin-top: 24px; color: #888888; margin-left: 96px; float: left; margin-bottom: 24px; 
 }
 
 .footer .f-copyright .resiz span{
@@ -418,7 +418,7 @@ body{
 }
 
 .footer .f-copyright .re{
-    float: left; margin-left: 952px; margin-top: 8.1px;
+    float: left; margin-right: 96px; margin-left: 922px; margin-top: 24px; margin-bottom: 24px;
 }
 
 .footer .f-copyright .re .req:hover{
@@ -432,3 +432,11 @@ body{
 .footer .f-copyright .re a{
     color: #888888; margin-right: 24px; text-decoration: none;
 }   
+
+.footer .f-img{
+    display: block;
+}
+
+.footer .f-copyright{
+    width: 1920px; height: 48px;
+}
