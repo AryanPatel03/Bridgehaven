@@ -7,15 +7,23 @@ body{
 }
 
 .header-up{
-    margin-left: 100px; margin-bottom: -15px;
+    margin-left: 100px; margin-bottom: -15px; font-family: 'Manrope', sans-serif; font-weight: 500; color: #4F4F4F; font-size: 16px; line-height: 100%; letter-spacing: 0;
 }
 
 .head-inner{
     display: inline-block; margin: 0 10px;
 }
 
+.head-call{
+    width:20px; height:20px; margin-bottom: 3px;
+}
+
+.head-space{
+    margin-left: 10px;
+}
+
 .head-img{
-    width:20px; height:20px;
+    width:20px; height:20px; margin-bottom: 3px;
 }
 
 .head-para{
@@ -26,8 +34,16 @@ body{
     display: inline-block; margin: 0 10px;
 }
 
+.head-text .head-btn{
+    font-family: 'Manrope', sans-serif; font-weight: 500; color: white; font-size: 16px; line-height: 100%; letter-spacing: 0;
+}
+
+.head-text{
+    margin-right: 32px;
+}
+
 .head-ig{
-    width:20px; height:20px;
+    width:20px; height:20px; margin-bottom: 3px;
 }
 
 .head-pa{
@@ -87,7 +103,7 @@ body{
 }
 
 .button-up{
-    margin-top: -15px;
+    margin-top: -24px; padding: 16px 24px; width: 197px; height: 54px;
 }
 
 .fontcng{
@@ -393,7 +409,8 @@ body{
 }
 
 .resiz{
-    margin-top: 8.1px; color: #888888; margin-left: 96px; float: left;}
+    margin-top: 8.1px; color: #888888; margin-left: 96px; float: left;
+}
 
 .resiz span{
     color: white;
@@ -414,4 +431,3 @@ body{
 .re a{
     color: #888888; margin-right: 24px; text-decoration: none;
 }
-
