@@ -181,7 +181,27 @@ body{
 }
 
 .services .services-head{
-    width: 1520px; height: 126px; text-align: center; font-family: 'Manrope', sans-serif; font-weight: 500; font-size: 54px; line-height: 100%; letter-spacing: 0;
+    width: 1520px; height: 126px; text-align: center; 
+}
+
+.services .service-head h2,p{
+    margin: 0; 
+}
+
+.services .service-head h2{
+    font-family: 'Manrope', sans-serif; font-weight: 500; font-size: 54px; line-height: 100%; letter-spacing: 0; margin-bottom: 16px;
+}
+
+.services .service-head h2 span{
+    font-family: 'Manrope', sans-serif; font-weight: 700; font-size: 54px; line-height: 100%; letter-spacing: 0;
+}
+
+.services .service-head p{
+    font-family: 'Manrope', sans-serif; font-weight: 400; font-size: 20px; line-height: 36px; letter-spacing: 0;
+}
+
+.service .text-center{
+    height: 126px; padding: 0;
 }
 
 .services .bg-change{
@@ -189,11 +209,11 @@ body{
 }
 
 .services .service-body{
-    width: 1520px; height: 358px; margin-top: 101px; margin-bottom: 90px; margin-left: 200px; margin-right: 200px; display: flex; justify-content: space-between; 
+    width: 1520px; height: 358px; margin-top: 64px; margin-bottom: 96px; margin-left: 200px; margin-right: 200px; display: flex; justify-content: space-between; 
 }
 
-.services .service-body .service1 .service2 .service3 .service4{
-    width: 356px; height: 358px; margin-right: 32px;
+.services .service-body .service-wg{
+    width: 356px; height: 358px; 
 }
 
 .services .service-body .ig-head{
