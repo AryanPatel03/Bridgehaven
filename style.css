@@ -852,7 +852,7 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px){
     .up-container .contact-info{
         font-weight: 400; font-size: 12px; margin: 15px 0;
     }
@@ -1416,7 +1416,7 @@
     }
 
     .container-wh .who .wh-img{
-        gap: 28px; max-width: 575px;
+        gap: 28px; max-width: 575px; justify-content: center;
     }
     .container-wh .who .wh-img .ip1{
         padding-top: 54px;
@@ -1480,7 +1480,7 @@
         gap: 32px;
     }
     .w-container .why .i-why{
-        max-width: 512px; margin-top: 1px; 
+        max-width: 512px; margin-top: 1px; margin: 0 auto;
     }
     .w-container .why .i-why .i-back .i-log{
         max-width: 105px; margin-left: 28px; margin-top: 48px;
@@ -1519,7 +1519,9 @@
         margin-left: 10px; 
     }
 
-
+    .f-container .f-info-cont{
+        margin: 0 auto;
+    }
     .f-container .f-info-cont .fi-up-cont{
         gap: 28px;
     }
@@ -1546,5 +1548,157 @@
 
 
 @media (max-width: 512px){
-    
+    .up-container .contact-info{
+        font-weight: 250; font-size: 5px; margin: 7px 0; padding-left: 40px;
+    }
+    .up-container .contact-info .contact-details img{
+        max-width: 8px; max-height: 8px;
+    }
+    .up-container .contact-info .up-space{
+        margin: 0 8px;
+    }
+
+
+    .container .nav-size .home .nav{
+        max-height: 105px; padding: 18px 40px; flex-direction: row; justify-content: flex-start; gap: 12px;
+    }
+    .container .nav-size .home .nav img{
+        max-width: 72px; max-height: 76px;
+    }
+    .container .nav-size .home .nav .navbar-nav{
+        gap: 5px; flex-direction: row; 
+    }
+    .container .nav-size .home .nav .navbar-nav .nav-item{
+        font-weight: 250; font-size: 6px; padding-top: 12px; padding-bottom: 0px;
+    }
+    .container .nav-size .home .nav .navbar-nav .nav-item .nav-link{
+        display: inline-block;
+    }
+    .container .nav-size .home .nav .navbar-nav .nav-si{
+        padding-top: 7px; padding-bottom: 4px; 
+    }
+    .container .nav-size .home .nav .navbar-nav .nav-item .nav-btn{
+        font-size: 5px; padding: 5px 3px;
+    }
+
+    .container .nav-size .home .main-content {
+        padding-right: 160px; padding: 68px 174px 68px 40px;
+    }
+    .container .nav-size .home .main-content h1{
+        font-weight: 300; font-size: 27px; line-height: 1; padding-bottom: 5px;
+    }
+    .container .nav-size .home .main-content h1 span{
+        font-weight: 450; font-size: 27px; line-height: 15%;
+    }
+    .container .nav-size .home .main-content p{
+        font-weight: 220; font-size: 7px; line-height: 8px; padding-bottom: 6px;
+    }
+    .container .nav-size .home .main-content button{
+        font-weight: 280; font-size: 7px; line-height: 35%; padding: 9px 14 px;
+    }
+
+
+    .container-wh .who{
+        gap: 1px; padding: 60px 40px; margin: 0 auto;
+    }
+
+    .container-wh .who .wh-img{
+        gap: 15px; max-width: 325px; margin: 0 auto;
+    } 
+    .container-wh .who .wh-img .ip1{
+        padding-top: 54px;
+    }
+    .container-wh .who .wh-img .ip1 img{
+        max-width: 115px; 
+    }
+    .container-wh .who .wh-img .ip2{
+        max-width: 115px;
+        gap: 15px;
+    }
+    .container-wh .who .wh-img .ip2 .blue-box .aero{
+        margin: 11px 11px 8px 92px;
+    }
+    .container-wh .who .wh-img .ip2 .blue-box{
+        gap: 10px;
+    }
+    .container-wh .who .wh-img .ip2 .blue-box .box-content{
+        margin: 3px 12px 12px 12px;
+        gap: 3px;
+    }
+    .container-wh .who .wh-img .ip2 .blue-box .box-content h4{
+        font-weight: 300; font-size: 12px; line-height: 100%;
+    }
+    .container-wh .who .wh-img .ip2 .blue-box .box-content p{
+        font-weight: 188; font-size: 9px; line-height: 10px;
+    }
+
+    .s-container .services{
+        padding: 68px 40px; gap: 10px;
+    }
+    .s-container .services .text-serv{
+        max-width: 262px; margin: 0 auto;
+    }
+    .s-container .services .main-serv h2{
+        font-size: 22px; line-height: 88%;
+    }
+    .s-container .services .main-serv h2 span{
+        font-size: 22px; line-height: 88%;
+    }
+    .s-container .services .main-serv p{
+        font-size: 8px; line-height: 11px;
+    }
+
+    .w-container .why{
+        padding: 68px 40px;
+    }
+    .w-container .why .i-why .i-back{
+        gap: 12px;
+    }
+    .w-container .why .i-why{
+        max-width: 325px; margin: 0 auto;
+    }
+    .w-container .why .i-why .i-back .i-log{
+        max-width: 65px; margin-left: 10px; margin-top: 22px; 
+    }
+    .w-container .why .i-why .i-back .i-pe{
+        max-width: 102px; 
+    }
+    .w-container .why .i-why .ip-col{
+        margin-top: -63px; margin-left: 0px;
+    }
+    .w-container .why .i-why img{
+        max-width: 103px;
+    }
+
+
+    .l-container .cent-cont{
+        padding: 68px 40px; margin: 0 auto;
+    }
+
+    .l-container .cent-cont .info-cont h2{
+        font-size: 18px; line-height: 85%;
+    }
+    .l-container .cent-cont .info-cont h2 span{
+        font-size: 18px; line-height: 85%;
+    }
+    .l-container .cent-cont .info-cont p{
+        font-size: 7px; line-height: 9px; padding-top: 5px; padding-bottom: 6px;
+    }
+    .l-container .cent-cont .btn-cont button{
+        padding: 4px 8px; font-size: 7px;
+    }
+    .l-container .cent-cont .btn-cont .cons{
+        margin-left: 0; 
+    }
+    .l-container .cent-cont .btn-cont .cont{
+        margin-left: 6px; 
+    }
+
+
+    .f-foot .f-f{
+        padding: 6px 40px;
+    }
+    .f-container .f-info-cont{
+        margin: 0 auto;
+    }
 }
