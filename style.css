@@ -1600,7 +1600,7 @@
         padding-top: 7px; padding-bottom: 4px; 
     }
     .container .nav-size .home .nav .navbar-nav .nav-item .nav-btn{
-        font-size: 14px; padding: 8px 6px;
+        font-size: 14px; padding: 8px 6px; margin-top: 0.1px;
     }
 
     .container .nav-size .home .main-content {
@@ -1731,5 +1731,47 @@
     }
     .f-container .f-info-cont .fi-up-cont .fr-container .frp img{
         padding-bottom: 0px; 
+    }
+}
+
+@media (max-width: 353px){
+    .container .nav-size .home .nav .navbar-nav .nav-item{
+        font-weight: 180; font-size: 13px; 
+    }
+    .container .nav-size .home .nav .navbar-nav .nav-item .nav-btn{
+        font-size: 11px; padding: 6px 5px; margin-top: 1px;
+    }
+
+    .container-wh .who .wh-img{
+        gap: 10px; max-width: 175px; margin: 0 auto;
+    } 
+    .container-wh .who .wh-img .ip1{
+        padding-top: 90px;
+    }
+    .container-wh .who .wh-img .ip1 img{
+        max-width: 80px; 
+    }
+    .container-wh .who .wh-img .ip2{
+        max-width: 85px; gap: 10px;
+    }
+    .container-wh .who .wh-img .ip2 .blue-box .aero{
+        margin: 11px 11px 8px 62px;
+    }
+    .container-wh .who .wh-img .ip2 .blue-box{
+        gap: 5px;
+    }
+    
+    .container-wh .who .wh-img .ip2 .blue-box .box-content{
+        margin: 2px 7px 7px 7px;
+        gap: 2px;
+    }
+    .container-wh .who .wh-img .ip2 .blue-box .box-content h4{
+        font-weight: 300; font-size: 10px; line-height: 12px; margin-bottom: 2px;
+    }
+    .container-wh .who .wh-img .ip2 .blue-box .box-content p{
+        font-weight: 242; font-size: 9px; line-height: 9px;
+    }
+    .l-container .cent-cont .btn-cont .cont{
+        margin-top: 4px;
     }
 }
